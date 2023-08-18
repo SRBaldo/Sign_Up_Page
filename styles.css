@@ -2,8 +2,21 @@
     text-transform: uppercase;
     color: #000;
     text-align: center;
-    background-color: red;
     margin: 0px;
     padding: 10px;
     font-size: 24px;
+}
+
+.char-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.name-select, .email-select{
+    text-align: center;
+}
+body{
+    background-color: grey;
 }

@@ -16,8 +16,31 @@
     <body>
         <!--Char main info-->
         <form>
-            <label for="char-name">Name</label>
-            <input id="char-name" type="name" placeholder="Bolvar the Brave" maxlength="20" method="get">
+            <div class="char-data">
+                <!--NAME-->
+                <div class="name-select">
+                    <label for="label char-name">Name</label><br>
+                    <input id="char-name" type="name" placeholder="Bolvar the Brave" maxlength="20" method="get"><br>
+                </div>
+                <!--EMAIL-->
+                <div class="email-select">
+                    <label for="user-email">Email</label><br>
+                    <input id="user-email" type="email" placeholder="example@samplemail.com" maxlength="45" method="get"><br>
+                </div>
+                <!--CLASS-->
+                <p class="char-class">Class</p>
+                <div class="class-select">
+                    <input id="class-barbarian" type="radio" method="get" name="class">
+                    <label for="class-barbarian">Barbarian</label><br>
+                    
+                    <input id="class-rogue" type="radio" method="get" name="class">
+                    <label for="class-rogue">Rogue</label><br>
+                    
+                    <input id="class-wizard" type="radio" method="get" name="class">
+                    <label for="class-wizard">Wizard</label><br>
+                </div>
+            </div>
+
         </form>
     </body>
 </html>
