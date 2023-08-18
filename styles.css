@@ -1,6 +1,6 @@
 .page-title{
     text-transform: uppercase;
-    color: #000;
+    color: #FFF;
     text-align: center;
     margin: 0px;
     padding: 10px;
@@ -12,11 +12,45 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #FFF;
+    background-color: #494848;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
     
 }
-.name-select, .email-select{
+.name-select, .email-select, .char-class, .gear{
+    color: #FFF;
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 body{
     background-color: grey;
+}
+#backstory-text{
+    resize: none;
+}
+.backstory-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backstory{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.submit-btn{
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: aliceblue;
+    border: 2px solid #494848;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.submit-btn:hover {
+    background-color: #302d2d;
+    color: #FFF;
 }

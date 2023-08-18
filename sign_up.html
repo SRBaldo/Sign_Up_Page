@@ -20,12 +20,12 @@
                 <!--NAME-->
                 <div class="name-select">
                     <label for="label char-name">Name</label><br>
-                    <input id="char-name" type="name" placeholder="Bolvar the Brave" maxlength="20" method="get"><br>
+                    <input id="char-name" type="name" placeholder="Bolvar the Brave" maxlength="20" method="get" required><br>
                 </div>
                 <!--EMAIL-->
                 <div class="email-select">
                     <label for="user-email">Email</label><br>
-                    <input id="user-email" type="email" placeholder="example@samplemail.com" maxlength="45" method="get"><br>
+                    <input id="user-email" type="email" placeholder="example@samplemail.com" maxlength="45" method="get" required><br>
                 </div>
                 <!--CLASS-->
                 <p class="char-class">Class</p>
@@ -39,6 +39,33 @@
                     <input id="class-wizard" type="radio" method="get" name="class">
                     <label for="class-wizard">Wizard</label><br>
                 </div>
+                <!--Starting Gear-->
+                <p class="gear">Choose Your Starting Gear</p>
+                <div class="gear-select">
+                    <input id="leather-armor" type="checkbox">
+                    <label for="leather-armor">Leather Armor</label><br>
+
+                    <input id="staff" type="checkbox">
+                    <label for="staff">Staff</label><br>
+
+                    <input id="battle-axe" type="checkbox">
+                    <label for="battle-axe">Battle Axe</label><br>
+
+                    <input id="boadsword" type="checkbox">
+                    <label for="broadsword">Broadsword</label><br>
+
+                    <input id="torch" type="checkbox">
+                    <label for="torch">Torch</label>
+
+                </div>
+                <!--Backstory-->
+                <p class="backstory">Write your character's Backstory (Optional)</p>
+                <div class="backstory-select">
+                    <textarea id="backstory-text" rows="10" cols="20">Once Upon a Time...
+                    </textarea>
+                </div>
+                <button class="submit-btn" type="submit">CREATE!</button>
+
             </div>
 
         </form>
